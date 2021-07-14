@@ -2,6 +2,7 @@
 
 > Generate 8 bytes (64 bit) PRNG identifiers blazingly fast
 > Spoiler alert: +970.22% CPU and zero allocations
+> Spoiler alert: +970.22% CPU and zero allocations
 
 ## Usage
 
