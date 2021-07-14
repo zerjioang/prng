@@ -1,4 +1,4 @@
-# Blazinly fast RNG (normal distributed)
+# Blazinly fast PRNG (normal distributed)
 
 > Generate 8 bytes (64 bit) PRNG identifiers blazingly fast
 
