@@ -1,0 +1,16 @@
+goos: linux
+goarch: amd64
+pkg: github.com/zerjioang/prng
+cpu: Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz
+BenchmarkRng
+BenchmarkRng/uuid-0
+BenchmarkRng/uuid-0-12         	41574139	        56.28 ns/op	  17.77 MB/s	       0 B/op	       0 allocs/op
+BenchmarkRng/uuid-0-12         	43105999	        55.83 ns/op	  17.91 MB/s	       0 B/op	       0 allocs/op
+BenchmarkRng/uuid-0-12         	42470292	        55.33 ns/op	  18.07 MB/s	       0 B/op	       0 allocs/op
+BenchmarkRng/uuid-0-12         	44294082	        55.39 ns/op	  18.05 MB/s	       0 B/op	       0 allocs/op
+BenchmarkRng/uuid-0-12         	43065757	        55.16 ns/op	  18.13 MB/s	       0 B/op	       0 allocs/op
+BenchmarkRng/uuid-0-12         	43489963	        54.92 ns/op	  18.21 MB/s	       0 B/op	       0 allocs/op
+BenchmarkRng/uuid-0-12         	40353843	        55.29 ns/op	  18.09 MB/s	       0 B/op	       0 allocs/op
+BenchmarkRng/uuid-0-12         	44173886	        55.38 ns/op	  18.06 MB/s	       0 B/op	       0 allocs/op
+BenchmarkRng/uuid-0-12         	44519041	        54.78 ns/op	  18.26 MB/s	       0 B/op	       0 allocs/op
+BenchmarkRng/uuid-0-12         	43383703	        55.69 ns/op	  17.96 MB/s	       0 B/op	       0 allocs/op
