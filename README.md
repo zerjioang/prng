@@ -7,7 +7,7 @@
 ## Usage
 
 ```go
-import "github.com/zerjioang/fastprng"
+import "github.com/zerjioang/prng"
 ```
 
 ## Example Program
@@ -47,7 +47,7 @@ func gen() string {
 
 ```go
 func gen() string {
-    return fastprng.New()
+    return prng.New()
 }
 // Output: dca90c93b8848229
 ```
