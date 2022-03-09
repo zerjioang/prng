@@ -6,6 +6,21 @@ const (
 
 type RandUUID [16]byte
 
+// String returns the content of the UUID as string
+func (r *RandUUID) String() string {
+	return string(r[:])
+}
+
+// IsEmpty returns true if created UUID is empty
+func (r *RandUUID) IsEmpty() bool {
+	for _, b := range *r {
+		if b != 0 {
+			return false
+		}
+	}
+	return true
+}
+
 /*
  * UUID generates a random uuid with Uniform distribution
  *
